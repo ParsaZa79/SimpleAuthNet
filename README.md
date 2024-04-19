@@ -164,9 +164,9 @@ To build the SimpleAuthNet project using the `dotnet` CLI, follow these steps:
 1. Ensure that you have the .NET SDK installed on your machine. You can download it from the official Mixcrosoft website: [.NET SDK](https://dotnet.microsoft.com/download)
 
 2. Clone this repository to your local machine using the following command:
-   ```
-   git clone [repository_url]
-   ```
+  ```
+  git clone [repository_url]
+  ```
 
 3. Open a terminal or command prompt and navigate to the root directory of the SimpleAuthNet project.
   ```

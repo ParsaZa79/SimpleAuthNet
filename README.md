@@ -1,5 +1,3 @@
-Certainly! Here's a markdown-style documentation for your ASP.NET API using .NET 8:
-
 # SimpleAuthNet API Documentation
 
 This documentation provides an overview of the SimpleAuthNet API, an authentication and authorization system built with ASP.NET using .NET 8.

@@ -1,3 +1,3 @@
 namespace SimpleAuthNet.Models.Dto.Response;
 
-public record WeatherForecast();
+public record WeatherForecastModel(DateTime Date, int TemperatureC, string Summary);

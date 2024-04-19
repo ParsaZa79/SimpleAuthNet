@@ -1,3 +1,3 @@
 namespace SimpleAuthNet.Models.Dto.Request;
 
-public record LoginModel(string Username, string Password);
+public record LoginRequestModel(string Username, string Password);

@@ -155,3 +155,42 @@ Retrieves a weather forecast.
   ...
 ]
 ```
+
+
+
+
+## Build Process
+
+To build the SimpleAuthNet project using the `dotnet` CLI, follow these steps:
+
+1. Ensure that you have the .NET SDK installed on your machine. You can download it from the official Microsoft website: [.NET SDK](https://dotnet.microsoft.com/download)
+
+2. Open a terminal or command prompt and navigate to the root directory of the SimpleAuthNet project.
+
+3. Run the following command to restore the project dependencies:
+   ```
+   dotnet restore
+   ```
+
+4. Once the dependencies are restored, run the following command to build the project:
+   ```
+   dotnet build
+   ```
+
+   This command will compile the project and generate the output in the `bin` directory.
+
+5. (Optional) If you want to run the tests, use the following command:
+   ```
+   dotnet test
+   ```
+
+   This will execute the unit tests defined in the project.
+
+6. To run the application, use the following command:
+   ```
+   dotnet run
+   ```
+
+   This will start the application, and you can access it via the specified URL (e.g., `http://localhost:5000`).
+
+That's it! You have now successfully built and run the SimpleAuthNet project using the `dotnet` CLI.

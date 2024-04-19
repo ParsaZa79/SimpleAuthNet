@@ -1,3 +1,4 @@
+using System.Reflection;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -67,7 +68,12 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddSwaggerGen(config =>
 {
-    config.SwaggerDoc("v1", new OpenApiInfo() { Title = "App Api", Version = "v1" });
+    config.SwaggerDoc("v1", new OpenApiInfo()
+    {
+        Title = "SimpleAuthNet Api",
+        Version = "v1",
+        Description = "A simple API to demonstrate JWT authentication and authorization."
+    });
     config.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         In = ParameterLocation.Header,
@@ -92,6 +98,8 @@ builder.Services.AddSwaggerGen(config =>
                 Array.Empty<string>()
             }
         });
+    var xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    config.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
 });
 
 var app = builder.Build();

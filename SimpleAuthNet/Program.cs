@@ -7,6 +7,7 @@ using Microsoft.OpenApi.Models;
 using SimpleAuthNet.Data;
 using SimpleAuthNet.Models.Entities;
 using SimpleAuthNet.Services;
+using SimpleAuthNet.Services.User;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionStr = builder.Configuration.GetConnectionString("DefaultConnection");

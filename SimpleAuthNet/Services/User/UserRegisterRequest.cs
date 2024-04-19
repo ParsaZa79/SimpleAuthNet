@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using SimpleAuthNet.Models.Entities;
 
-namespace SimpleAuthNet.Services;
+namespace SimpleAuthNet.Services.User;
 
 public class UserRegisterRequest
 {

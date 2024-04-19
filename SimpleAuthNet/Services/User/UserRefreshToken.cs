@@ -1,4 +1,6 @@
-namespace SimpleAuthNet.Services;
+using SimpleAuthNet.Utils;
+
+namespace SimpleAuthNet.Services.User;
 
 public class UserRefreshTokenRequest
 {

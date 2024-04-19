@@ -2,8 +2,9 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Identity;
 using SimpleAuthNet.Data;
 using SimpleAuthNet.Models.Entities;
+using SimpleAuthNet.Utils;
 
-namespace SimpleAuthNet.Services;
+namespace SimpleAuthNet.Services.User;
 
 public partial class UserService(UserManager<ApplicationUser> userManager,
     SignInManager<ApplicationUser> signInManager,

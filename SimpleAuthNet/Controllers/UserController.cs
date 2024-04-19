@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SimpleAuthNet.Services;
+using SimpleAuthNet.Services.User;
 
 namespace SimpleAuthNet.Controllers;
 

@@ -1,4 +1,4 @@
-namespace SimpleAuthNet.Services;
+namespace SimpleAuthNet.Services.User;
 
 public class UserLoginRequest
 {

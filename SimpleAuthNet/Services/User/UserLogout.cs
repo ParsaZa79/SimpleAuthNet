@@ -1,6 +1,6 @@
 using System.Security.Claims;
 
-namespace SimpleAuthNet.Services;
+namespace SimpleAuthNet.Services.User;
 
 public partial class UserService
 {

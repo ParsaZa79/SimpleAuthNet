@@ -3,8 +3,9 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using SimpleAuthNet.Models.Entities;
+using SimpleAuthNet.Services;
 
-namespace SimpleAuthNet.Services;
+namespace SimpleAuthNet.Utils;
 
     public static class TokenUtil
     {

@@ -168,7 +168,7 @@ To build the SimpleAuthNet project using the `dotnet` CLI, follow these steps:
   git clone [repository_url]
   ```
 
-3. Open a terminal or command prompt and navigate to the root directory of the SimpleAuthNet project.
+3. Open a terminal or command prompt and navigate to the root directory of the SimpleAuthNet project:
   ```
   cd SimpleAuthNet
   ```
